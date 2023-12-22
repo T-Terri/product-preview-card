@@ -1,0 +1,199 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Open+Sans&family=Poppins:wght@400;600&family=Red+Hat+Display:wght@500;700;900&display=swap" rel="stylesheet">);
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&family=Open+Sans&family=Poppins:wght@400;600&family=Red+Hat+Display:wght@500;700;900&display=swap" rel="stylesheet">);
+:root{
+    --Darkcyan: hsl(158, 36%, 37%);
+    --Cream: hsl(30, 38%, 92%);
+    --Verydarkblue: hsl(212, 21%, 14%);
+    --Darkgrayishblue: hsl(228, 12%, 48%);
+    --White: hsl(0, 0%, 100%);
+}
+body{
+    background-color: var(--Cream);
+}
+.dblock{
+    display: block;
+}
+.image1{
+    height: 500px;
+    width: 400px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.image2{
+     display: none; 
+}
+.card{
+    background-color: var(--White);
+    padding: 50px;
+    width: 300px;
+    height: 400px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-bottom: 5px;
+   
+
+}
+.perfume{
+    font-family: 'Montserrat', sans-serif;
+    color: var(--Darkgrayishblue);
+    font-size: 14px;
+    position: relative;
+    top: 20px;
+}
+.p1{
+    color: var(--Darkgrayishblue);
+    line-height: 30px;
+    font-family: 'Montserrat', sans-serif;
+    color: var(--Darkgrayishblue);
+}
+.p2{
+    display: none;
+}
+h1{
+    color: var(--Darkcyan);
+}
+.myh1{
+    font-family: 'Fraunces', serif;
+    color: var(--Verydarkblue);
+    font-size: 40px;
+    line-height: 35px;
+    position: relative;
+    top: 10px;
+}
+.myh2{
+   display: none;
+}
+.myp{
+    text-decoration: line-through;
+    margin-top: 40px;
+    font-family: 'Montserrat', sans-serif;
+    color: var(--Darkgrayishblue);
+    font-size: 14px;
+    position: relative;
+    bottom: 5px;
+}
+.numbers{
+    display: flex;
+    gap: 20px;
+    
+}
+.mycarts{
+    display: flex;
+    gap: 10px;
+    margin-left: 40px;
+}
+.btn{
+    background-color: var(--Darkcyan);
+    color: var(--White);
+    font-weight: 600;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    padding: 20px;
+    border-radius: 8px;
+    width: 230px;
+    border: none;
+    margin-top: 30px;
+    height: 50px;
+
+}
+.hero{
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    
+}
+.myhero{
+    position: relative;
+    bottom: 50px;
+    
+}
+
+@media(max-width:600px){
+    body{
+         margin: 1rem; 
+    }
+    .hero{
+        flex-direction: column;
+    }    
+    .image1{
+        display: none;
+    }
+    .image2{
+        display: inline-block;
+        width: 100%;
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+    }
+    .card{
+        width: 75%;
+        border-radius: 0;
+        
+    }
+    .p1{
+        display: none;
+    }
+    .p2{
+        color: var(--Darkgrayishblue);
+        line-height: 25px;
+        font-weight: 500;
+        font-family: 'Montserrat', sans-serif;
+        color: var(--Darkgrayishblue);
+        display: inline-block;
+        font-size: 14px;
+        position: relative;
+        bottom: 30px;
+    }
+    .perfume{
+        font-family: 'Montserrat', sans-serif;
+        color: var(--Darkgrayishblue);
+        font-size: 17px;
+        font-weight: 500;
+        position: relative;
+        top: 20px;
+    }
+    .myh1{
+        display: none;
+
+    }
+    .myh2{
+        font-family: 'Fraunces', serif;
+        color: var(--Verydarkblue);
+        font-size: 33px;
+        font-weight: bolder;
+        line-height: 40px;
+        display: inline-block;
+        position: relative;
+        bottom: 10px;
+    }
+    .myhero{
+           
+            position: relative;
+            right: 10px;
+            place-items: center;
+            
+            
+        }
+    .card{
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+        width: 72%;
+        position: relative;
+        bottom: 10px;
+    }    
+    .btn{
+        width: 100%;
+        position: relative;
+        bottom: 40px;
+    }
+    .numbers{
+        font-size: 20px;
+        position: relative;
+        bottom: 40px;
+    }
+    .myp{
+        position: relative;
+        top: 2px;
+    }
+    
+}
+
