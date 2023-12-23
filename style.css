@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Open+Sans&family=Poppins:wght@400;600&family=Red+Hat+Display:wght@500;700;900&display=swap" rel="stylesheet">);
-@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&family=Open+Sans&family=Poppins:wght@400;600&family=Red+Hat+Display:wght@500;700;900&display=swap" rel="stylesheet">);
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&display=swap');
 :root{
     --Darkcyan: hsl(158, 36%, 37%);
     --Cream: hsl(30, 38%, 92%);
@@ -51,7 +51,9 @@ body{
 }
 h1{
     color: var(--Darkcyan);
+    font-family: 'Fraunces', serif;
 }
+    
 .myh1{
     font-family: 'Fraunces', serif;
     color: var(--Verydarkblue);
